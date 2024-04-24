@@ -32,6 +32,7 @@ body {
   gap: 24px;
   overflow: hidden;
   box-shadow: 4px 4px;
+  cursor: url("./assets/images/pointer.png"), auto;
 }
 
 header {
@@ -127,6 +128,10 @@ footer {
   #outer-container {
     width: 384px;
     box-shadow: 8px 8px;
+  }
+
+  #outer-container:hover {
+    box-shadow: 16px 16px;
   }
 
   .category-item {
